@@ -16,7 +16,9 @@ Some based on examples from [ET](https://electronicstopper.blogspot.com) website
 
 ---
 
-## Usage
+## Usage & preferences
 
 Simulate testbenches with simulation software (ModelSim, ...)
+
+Preferred code editor: [Sigasi](https://www.sigasi.com/)
 
