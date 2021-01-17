@@ -2,6 +2,8 @@
 
 ***Usefull VHDL code snippets and testbenches***
 
+Some based on examples from [ET](https://electronicstopper.blogspot.com) website
+
 ---
 
 ## Contains
@@ -16,5 +18,5 @@
 
 ## Usage
 
-Simulate testbenches with simulation software (ModelSim, ...).
+Simulate testbenches with simulation software (ModelSim, ...)
 
