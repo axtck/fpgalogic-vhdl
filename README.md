@@ -1,6 +1,6 @@
 # FPGA logic
 
-***Some usefull VHDL code snippets***
+***Usefull VHDL code snippets and testbenches***
 
 ---
 
@@ -10,5 +10,11 @@
 * FF's
 * MUX's
 * FSM's
-* ... 
+* ...
+
+---
+
+## Usage
+
+Simulate testbenches with simulation software (ModelSim, ...).
 
