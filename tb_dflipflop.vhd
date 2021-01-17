@@ -18,9 +18,9 @@ architecture behavioral of tb_dflipflop is
 	end component dflipflop;
 
 	-- signals
-	signal clk  : std_logic;
-	signal rst  : std_logic;
-	signal din  : std_logic;
+	signal clk  : std_logic := '0';
+	signal rst  : std_logic := '1';
+	signal din  : std_logic := '0';
 	signal dout : std_logic;
 
 	-- for 10 ns clock period
