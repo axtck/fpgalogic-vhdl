@@ -7,7 +7,7 @@ end entity tb_mux4_dataflow;
 
 architecture dataflow of tb_mux4_dataflow is
 
-	-- create mux4 component
+	-- MUX component
 	component mux4_dataflow
 		port(
 			d0, d1, d2, d3, s0, s1 : in  bit;
@@ -15,7 +15,7 @@ architecture dataflow of tb_mux4_dataflow is
 		);
 	end component mux4_dataflow;
 
-	-- auto declared signals after instantiating
+	-- signals
 	signal d0 : bit := '1';
 	signal d1 : bit := '0';
 	signal d2 : bit := '1';
@@ -23,7 +23,7 @@ architecture dataflow of tb_mux4_dataflow is
 	signal s0 : bit := '0';
 	signal s1 : bit := '0';
 	signal y  : bit;
-	
+
 begin
 
 	-- instantiate from component
@@ -55,8 +55,8 @@ begin
 
 		s0 <= '1';
 		s1 <= '1';
-
 		wait;
+		
 	end process change_invals_proc;
 
 end architecture dataflow;
