@@ -7,7 +7,7 @@ end entity tb_logicgates;
 
 architecture behavioral of tb_logicgates is
 
-	-- create logicgates component
+	-- logicgates component
 	component logicgates
 		port(
 			a, b : in  std_logic;
@@ -15,7 +15,7 @@ architecture behavioral of tb_logicgates is
 		);
 	end component logicgates;
 
-	-- auto declared signals after instantiating
+	-- signals
 	signal a : std_logic := '0';
 	signal b : std_logic := '0';
 	signal c : std_logic_vector(0 to 6);
@@ -47,8 +47,8 @@ begin
 		wait for 50 ns;
 		a <= '1';
 		b <= '1';
-
-		wait;
+        wait;
+        
 	end process change_invals_proc;
 
 end architecture behavioral;
